@@ -831,50 +831,62 @@ footer .bottom-footer .contanier p span{
     background-color: #fff;
     padding: 60px 0 120px;
 }
-.cart .table-content{
+
+.opc-sidebar{
+    width: 70%;
+    margin: auto;
+    border: 1px solid #FB0404;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.opc-sidebar h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #6666665b;
+    padding-bottom: 20px;
+}
+.opc-sidebar .totl{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.opc-sidebar .opc-box .cont-p{
+
+    padding-bottom: 15px;
+}
+
+
+.opc-sidebar .item {
+    border-top: 1px solid #6666662c;
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-bottom: 60px;
+    padding: 20px 0;
 }
-th,td{
-    border: var(--border);
-    padding:10px 25px;
-    color: var(--dark-color);
-}
-th{
-    font-size: 16px;
-}
-.product-name a{
-    color:var(--dark-color);
-    font-size: 18px;
-}
-td .amount{
-    font-size: 18px;
-}
-td input{
-    outline: none;
-    border: var(--border);
-    font-size: 18px;
-    padding: 10px;
+.opc-sidebar .item img{
     width: 100px;
+    margin-left: 10px;
 }
-.product-remove.remove {
+.opc-sidebar .item p{
+    margin-bottom: 10px;
+}
+.opc-sidebar .btn-div{
     text-align: center;
-    cursor: pointer;
+    padding: 20px 0;
 }
-.product-remove.remove i{
-    color: var(--dark-color);
-    font-size: 25px;
-}
-.product-remove:hover i{
-    color: var(--drak-red);
+.opc-sidebar .btn{
+    padding: 10px 25px;
+    
 }
 
 
-.cart img{
-    width: 150px;
-}
+
+
+
+
+
+
 
 
 .row .coupon-all{
@@ -1440,6 +1452,9 @@ td input{
         width: 100%;
         margin-bottom: 20px;
     }
+    .opc-sidebar{
+        width: 90%;
+    }
 }
 @media (max-width: 600px){
     .contanier{
@@ -1699,6 +1714,7 @@ td input{
         margin: auto;
     }
 }
+
 
 
 
